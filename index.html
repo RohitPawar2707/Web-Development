@@ -58,13 +58,16 @@
 
       <form action="/action.php">
         <bold> <h4>Enter user name</h4> </bold>
+        <br />
 
-        <input type="text" />
+        <input type="text" placeholder="Enter the user name " />
         <br />
         <input type="password" placeholder="Enter password" />
         <br />
+        <input type="text" placeholder="Enter your name" />
         <!-- RADIO TAG  -->
-        <label for = "101">
+        <br />
+        <label for="101">
           <input
             type="radio"
             value="ECE DEPARTMENT"
@@ -72,11 +75,62 @@
             id="101"
           />CLICK IF YOU ARE FROM ECE DEPARTMENT
         </label>
+
         <br />
-        <label for = "102">
+        <label for="102">
           <input type="radio" value="CS DEPARTMENT" name="class" id="102" />
           CLICK IF YOU ARE CS DEPARTMENT
         </label>
+        <br />
+        <!-- CHECKBOXES -->
+        <label for="102">
+          <input type="checkbox" value="math" class="Subject" id="102" /> Maths
+        </label>
+        <br />
+        <label for="103">
+          <input type="checkbox" values="Science" class="Subject" id="103" />
+          Science
+        </label>
+        <br />
+        <br />
+
+        <textarea
+          name="feedback"
+          id="101"
+          placeholder="Please give your valuable feedback here"
+          rows="5"
+          columns="5"
+        >
+ feedback</textarea
+        >
+
+        <br />
+        <br />
+
+        <!--SELECR [FOR THE DROPDOWN APPROACH]  -->
+        <select name="city">
+          <option value="Mumbai">mumbai</option>
+          <option value="pune">Pune</option>
+          <option value="nashik">Nashik</option>
+          <option value="nagpur">Nagpur</option>
+          <option value="sinnar">Sinnar</option>
+        </select>
+
+        <br />
+        <input type="submit" value="Submit your form" />
+
+        <!-- <iframe
+          width="300"
+          height="100"
+          src="https://www.youtube.com/embed/HcOc7P5BMi4?si=5SCXnvrx3ePz-WS6"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe> -->
+<video src="my video.mp4" width="300" height="300" controls </video>
+
       </form>
     </main>
 
