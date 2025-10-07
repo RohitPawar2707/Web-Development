@@ -1,0 +1,17 @@
+
+    #box {
+        background-color: blue ;
+        color : white ;
+    }
+
+    .heading {
+         font-family: "times new roman"  ;
+        color : red ;
+        text-align :center;
+        text-decoration : blue wavy underline ;           ;
+    }
+    /* h1,h2,h3{
+    color: red; */
+
+    /* FONT WEIGHT  */
+    /* FONT FAMILT / STYLE */
