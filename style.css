@@ -1,58 +1,47 @@
-.ContentBox{
-    width: 100px;
-    height: 100px;
-    border: 2px solid black;
-
+body{
+    text-align: center;
 }
- #navigationbar {
-   background-color: black;
-    height: 60px;
- }
- h1{
-    color: #0077b6;
-    text-align: center;
-    
- }
 
- #logo{
-    font-size: 25px;
-    color : yellow
- }
-  /* * {
-    padding: 0px;
-    margin: 0px;
-    color: white;
-  } */
-  
-  a{
-    margin-right: 200px;
-  } 
+div{
+    height: 50px ;
+    width: 100px;
+    display: inline-block;
+    border : 2px solid black;
+}
 
-  #button{
-    background-color: dark yellowgreen;
-  }
-   #my{
-    color: red;
-    background-color: cadetblue;
-   }
+#container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 50px; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* align-content: flex-start; */
+ 
+}
 
-   *{
-    color: white;
-   }
-   body{
-    background-color: #bde0fe;
-   }
+#box1{
+    background-color: turquoise;
+    /* flex-direction: row-reverse; */
+}
 
-   #content{
-    height: 800px;
-   }
+#box2{
+    background-color: lightblue;
+    height:200px
+}
 
-   footer{
-    background-color: black;
-     
-    text-align: center;
-    
-   }
-   box4{
-    background-color: blue;
-   }
+
+#box3{
+    background-color: lightgreen;
+    height:275px
+}
+
+#box4{
+    background-color: lightpink;
+}
+
+#box5{
+    background-color: lightgrey;
+}   
