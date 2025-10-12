@@ -2,6 +2,8 @@
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
+    
+    
 }
 
 a{
@@ -15,7 +17,7 @@ li{
     display: inline-block;
 }
 
-.outer{
+/* .outer{
     background-color:darkcyan;
     height: 500px;
     width: 500px;
@@ -29,7 +31,87 @@ li{
 .inner{
     background-color: yellow;
     color: black;
-    height: 250px;
-    width: 250px;
-    /* align-self: flex-start; */
+    height: 50px;
+    width: 50px;
+    align-self: flex-start;
+    
+} */
+
+div{
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid black;
+    transition-property: all; */
+    /* cursor: pointer; */
+   /* position: absolute;
+   left: 100px; 
+   width: 100px; */
+   /* transition: all 0.5s ease-in-out 1s; */
+   /* transform: translateY(200px); */
+
+
+   /* animation-name : font;
+   animation-duration: 1s;
+   animation-iteration-count: 5;
+   animation-timing-function: ease-in-out;
+   animation-direction: reverse; */
+
+   animation: font 1s linear 2s 5 alternate-reverse;
+  
+} 
+
+div:hover{
+    /* background-color:aqua;
+    font-size: 20px;S
+    font-family: cursive; */
+    /* transform: translate(100px); */
+    /* transition: all 0.5s ease-in-out 0s;
+    transition-timing-function: ease-in-out;
+    transform: skew(45deg); */
+    
+  
+
+}
+
+
+@keyframes font {
+    from{
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+    
+}
+    
+
+div:active{
+    background-color: chocolate;
+}
+
+@media (width: 300px) {
+    div{
+        background-color: green;
+    }
+
+}
+@media (min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+
+@media(min-width:400px) and (max-weidth:600px){
+    div{
+        background-color: red;
+    }
+}
+@media (max-width:600px){
+    div{
+        background-attachment: blue;
+    }
 }
