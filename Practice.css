@@ -1,0 +1,35 @@
+.Navbar{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.outer{
+    background-color:darkcyan;
+    height: 500px;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.inner{
+    background-color: yellow;
+    color: black;
+    height: 250px;
+    width: 250px;
+    /* align-self: flex-start; */
+}
