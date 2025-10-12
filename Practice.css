@@ -1,4 +1,4 @@
-.Navbar{
+/* .Navbar{
     background-color: aqua;
     display: flex;
     justify-content: space-evenly;
@@ -15,7 +15,7 @@ a{
 li{
     list-style-type: none;
     display: inline-block;
-}
+} */
 
 /* .outer{
     background-color:darkcyan;
@@ -37,11 +37,11 @@ li{
     
 } */
 
-div{
+/* div{
     background-color: lightgreen;
     height: 100px;
     width: 100px;
-    display: flex;
+    display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
     /* border: 2px solid black;
@@ -60,11 +60,11 @@ div{
    animation-timing-function: ease-in-out;
    animation-direction: reverse; */
 
-   animation: font 1s linear 2s 5 alternate-reverse;
+   /* animation: font 5s linear 2s 1 normal;
   
-} 
+}  */
 
-div:hover{
+/* div:hover{ */
     /* background-color:aqua;
     font-size: 20px;S
     font-family: cursive; */
@@ -75,21 +75,28 @@ div:hover{
     
   
 
-}
 
 
-@keyframes font {
-    from{
+
+/* @keyframes font {
+    0%{
         font-size: 20px;
+        background-color: yellow;
     }
-    to {
-        font-size: 40px;
+    50% {
+        font-size: 60px;
+        background-color: lightblue;
+    }
+    100% {
+        font-size: 10px;
+        background-color: lightskyblue;
+        color: white;
     }
     
-}
+} */
     
 
-div:active{
+/* div:active{
     background-color: chocolate;
 }
 
@@ -114,4 +121,26 @@ div:active{
     div{
         background-attachment: blue;
     }
+} */
+
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: burlywood 5px solid;
+    border-bottom: 5px solid black;
+    animation:rotate 1s ease-in 0s infinite normal;
 }
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
